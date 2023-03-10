@@ -19,6 +19,10 @@
 		BFEB36C329B9F303005929E9 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36C229B9F303005929E9 /* ImageSelectorController.swift */; };
 		BFEB36C529B9F30A005929E9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36C429B9F30A005929E9 /* NotificationController.swift */; };
 		BFEB36C729B9F311005929E9 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36C629B9F311005929E9 /* ProfileController.swift */; };
+		BFEB36C929BA00E7005929E9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36C829BA00E7005929E9 /* FeedCell.swift */; };
+		BFEB36CB29BA02F6005929E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36CA29BA02F6005929E9 /* Extensions.swift */; };
+		BFEB36CE29BB3213005929E9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36CD29BB3213005929E9 /* LoginController.swift */; };
+		BFEB36D029BB3222005929E9 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB36CF29BB3222005929E9 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		BFEB36C229B9F303005929E9 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		BFEB36C429B9F30A005929E9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		BFEB36C629B9F311005929E9 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		BFEB36C829BA00E7005929E9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		BFEB36CA29BA02F6005929E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BFEB36CD29BB3213005929E9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		BFEB36CF29BB3222005929E9 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 		BFEB36B229B9F058005929E9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BFEB36CA29BA02F6005929E9 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -102,6 +111,7 @@
 		BFEB36B829B9F06F005929E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFEB36CC29BB31FC005929E9 /* Authentication */,
 				BFEB36BC29B9F10F005929E9 /* MainTabController.swift */,
 				BFEB36BE29B9F2F4005929E9 /* FeedController.swift */,
 				BFEB36C029B9F2FB005929E9 /* SearchController.swift */,
@@ -122,6 +132,7 @@
 		BFEB36BA29B9F072005929E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFEB36C829BA00E7005929E9 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +142,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BFEB36CC29BB31FC005929E9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB36CD29BB3213005929E9 /* LoginController.swift */,
+				BFEB36CF29BB3222005929E9 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFEB36A329B9F02D005929E9 /* ViewController.swift in Sources */,
+				BFEB36CE29BB3213005929E9 /* LoginController.swift in Sources */,
+				BFEB36C929BA00E7005929E9 /* FeedCell.swift in Sources */,
 				BFEB36C329B9F303005929E9 /* ImageSelectorController.swift in Sources */,
 				BFEB36C529B9F30A005929E9 /* NotificationController.swift in Sources */,
 				BFEB36C129B9F2FB005929E9 /* SearchController.swift in Sources */,
@@ -212,7 +234,9 @@
 				BFEB36C729B9F311005929E9 /* ProfileController.swift in Sources */,
 				BFEB36BF29B9F2F4005929E9 /* FeedController.swift in Sources */,
 				BFEB36BD29B9F10F005929E9 /* MainTabController.swift in Sources */,
+				BFEB36CB29BA02F6005929E9 /* Extensions.swift in Sources */,
 				BFEB36A129B9F02D005929E9 /* SceneDelegate.swift in Sources */,
+				BFEB36D029BB3222005929E9 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
